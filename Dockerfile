@@ -2,6 +2,6 @@ FROM python:3.12-slim
 
 WORKDIR /app
 
-COPY assignment.py .
+COPY hello.py .
 
-CMD ["python", "assignment.py"]
+CMD ["python", "hello.py"]
